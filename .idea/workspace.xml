@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="553c5fe7-01d4-4749-9b12-e4426f9c1613" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/censusplus_django/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/censusplus_django/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,8 +23,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/censusplus_django/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="42" column="6" selection-start-line="42" selection-end-line="42" selection-end-column="6" />
+            <state relative-caret-position="231">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
@@ -540,8 +540,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/censusplus_django/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="42" column="6" selection-start-line="42" selection-end-line="42" selection-end-column="6" />
+        <state relative-caret-position="231">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
