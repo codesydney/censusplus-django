@@ -48,6 +48,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'censusplus_django.urls'
@@ -115,6 +116,8 @@ USE_L10N = True
 
 USE_TZ = True
 
+
+# Bin modified after here:
 
 ALLOWED_HOSTS = ['censusplusdjango.herokuapp.com', '127.0.0.1', ]
 
