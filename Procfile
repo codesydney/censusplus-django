@@ -1,0 +1,1 @@
+web: gunicorn censusplus_django.wsgi
