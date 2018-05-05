@@ -120,12 +120,15 @@ ALLOWED_HOSTS = ['censusplusdjango.herokuapp.com', '127.0.0.1', ]
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
+import os
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+STATIC_ROOT = 'staticfiles'
 
 STATIC_URL = '/static/'
 
 STATIC_DIRS = 'static'
 
-STATICFILES_DIRS = [
-    STATIC_DIRS,
-]
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
 
