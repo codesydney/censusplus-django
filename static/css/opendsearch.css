@@ -12,17 +12,6 @@ body
     width:auto;
 }
 
-.navbar.navbar-default.navbar-fixed-top.mainsearchnavbar{
-  background-color:transparent;
-}
-
-
-.navbar-default
-{
-    background-color: #ffffff;
-}
-
-
 
 .mainsearchrow1{
   padding: 150px 8%;
@@ -55,7 +44,8 @@ body
     text-transform:uppercase;
 }
 
-header {
+#searchcontainer {
+    width: 100%;
     height: 928px;
     background-attachment: scroll;
     background-image: url('/static/images/suburbs.jpg');
